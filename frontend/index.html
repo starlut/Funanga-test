@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirect</title>
+</head>
+<body>
+
+<script>
+    // Check local storage for user info
+    const userInfo = localStorage.getItem('user_info');
+
+    // If user info found, redirect to home page
+    if (userInfo) {
+        window.location.href = 'home/home.html';
+    } else {
+        // If user info not found, redirect to login page
+        window.location.href = 'login/login.html';
+    }
+</script>
+
+</body>
+</html>
+                                                                                                                                                                                            

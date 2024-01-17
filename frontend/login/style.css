@@ -1,0 +1,30 @@
+/* style.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+#loginForm {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#loginForm h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#loginForm .form-label {
+    font-weight: bold;
+}
+
+#loginForm .btn-primary {
+    width: 100%;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>README - Full Stack Developer Skills Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        code {
+            background-color: #f5f5f5;
+            padding: 2px 4px;
+            border-radius: 4px;
+            font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+        }
+
+        ol {
+            list-style-type: decimal;
+            margin-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Full Stack Developer Skills Test</h1>
+
+<p>This project is a full-stack web application that includes a login page, authentication using an external API, and a welcome page displaying user information. The implementation covers both the frontend and backend components.</p>
+
+<h2 id="table-of-contents">Table of Contents</h2>
+
+<ol>
+    <li><a href="#project-structure">Project Structure</a></li>
+    <li><a href="#frontend-implementation">Frontend Implementation</a></li>
+    <li><a href="#backend-implementation">Backend Implementation</a></li>
+    <li><a href="#database-structure">Database Structure</a></li>
+    <li><a href="#instructions-to-build-and-run">Instructions to Build and Run</a></li>
+    <li><a href="#post-submission-discussion">Post-Submission Discussion</a></li>
+</ol>
+
+<h2 id="project-structure">Project Structure</h2>
+
+<p>The project is organized into frontend and backend components.</p>
+
+<h3 id="frontend">Frontend</h3>
+<ul>
+    <li><code>frontend/index.html</code>: Main entry point for the application.</li>
+    <li><code>frontend/login/login.html</code>: Login page HTML.</li>
+    <li><code>frontend/login/style.css</code>: Stylesheet for the login page.</li>
+    <li><code>frontend/login/script.js</code>: JavaScript logic for the login page.</li>
+    <li><code>frontend/home/home.html</code>: Welcome page HTML.</li>
+    <li><code>frontend/home/style.css</code>: Stylesheet for the welcome page.</li>
+    <li><code>frontend/home/script.js</code>: JavaScript logic for the welcome page.</li>
+</ul>
+
+<h3 id="backend">Backend</h3>
+<ul>
+    <li><code>backend/index.php</code>: Main entry point for the backend, handles routing.</li>
+    <li><code>backend/src/config.php</code>: Configuration file for database connection.</li>
+    <li><code>backend/src/controller.php</code>: Handles different API routes.</li>
+    <li><code>backend/src/service.php</code>: Contains the business logic, interacts with the database.</li>
+</ul>
+
+<h2 id="frontend-implementation">Frontend Implementation</h2>
+
+<p>The frontend is built using HTML, CSS, and JavaScript. The login page has a modern and user-friendly design. It makes an AJAX call to the backend API for user authentication.</p>
+
+<h2 id="backend-implementation">Backend Implementation</h2>
+
+<p>The backend is implemented in PHP. It includes routing, a configuration file for database connection, and a service class for business logic. The <code>controller.php</code> file handles different API routes, and the <code>service.php</code> file interacts with the database for user authentication.</p>
+
+<h2 id="database-structure">Database Structure</h2>
+
+<p>The database used is named <code>funanga_test</code>, and it contains a table named <code>user_info</code> with columns <code>id</code>, <code>name</code>, <code>email</code>, and <code>password</code>.</p>
+
+<h2 id="instructions-to-build-and-run">Instructions to Build and Run</h2>
+
+<ol>
+    <li>Clone the repository: <code>git clone https://github.com/yourusername/your-repo.git</code></li>
+    <li>Set up your web server (e.g., Apache, Nginx) to serve the frontend and backend.</li>
+    <li>Update the database configuration in <code>backend/src/config.php</code>.</li>
+    <li>Import the database structure from the provided SQL file.</li>
+    <li>Access the application through the configured URL.</li>
+</ol>
+
+<h2 id="post-submission-discussion">Post-Submission Discussion</h2>
+
+<p>Please provide the entire codebase, including frontend, backend, and the database structure. Feel free to share any additional details or thoughts on your implementation.</p>
+
+<p>Thank you for your time and effort in completing this test!</p>
+
+</body>
+</html>
